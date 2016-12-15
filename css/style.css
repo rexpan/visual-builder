@@ -1,0 +1,74 @@
+@import "grid.css";
+/*@import holy-grail.css;*/
+
+/*
+@page {
+    size: 5.5in 8.5in;
+    size: A4;
+    size: A4 landscape;
+}
+*/
+
+div.page {
+    border: solid 3px #000;
+    position: relative;
+}
+
+/* TODO: change to vb-box-1 */
+div.box {
+    /*text-align: center;*/
+    /*padding: 40px;*/
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.box.active {
+    border: 1px dashed #666;
+    border-radius: 2px;
+    cursor: move;
+}
+
+div.box div.inner {
+    background: #ccc;
+    text-align: left;
+}
+
+
+div.box div.inner.draggable {
+    cursor: move;
+}
+
+div.box>img {
+    max-width : 100%;
+    max-height: 100%;
+    object-fit: contain;
+    user-drag: none;
+    -webkit-user-drag: none;
+}
+
+div.app-wrap {
+    display: flex;
+    padding: 20px;
+}
+div.app-toolbar {
+    width: 150px;
+    padding: 10px;
+}
+div.app-editor {
+    flex-grow: 1;
+    padding: 10px;
+}
+div.app-preview {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.font-Arial {
+    font-family: Arial;
+}
+
+.font-Time {
+    font-family: Time;
+}
