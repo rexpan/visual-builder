@@ -31,7 +31,7 @@ div.box.active {
 }
 
 div.box div.inner {
-    background: #ccc;
+    /*background: #ccc;*/
     text-align: left;
 }
 
@@ -48,10 +48,6 @@ div.box>img {
     -webkit-user-drag: none;
 }
 
-div.app-wrap {
-    display: flex;
-    padding: 20px;
-}
 div.app-toolbar {
     width: 150px;
     padding: 10px;
@@ -71,4 +67,14 @@ div.app-preview {
 
 .font-Time {
     font-family: Time;
+}
+
+
+div.flex-v {
+    display: flex;
+    flex-direction: column;
+}
+
+div.flex-h {
+    display: flex;
 }
