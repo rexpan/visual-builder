@@ -11,7 +11,6 @@ div.page {
     position: relative;
 }
 
-/* TODO: change to vb-box-1 */
 div.box {
     /*text-align: center;*/
     /*padding: 40px;*/
@@ -58,15 +57,6 @@ div.app-preview {
     padding: 10px;
 }
 
-.font-Arial {
-    font-family: Arial;
-}
-
-.font-Time {
-    font-family: Time;
-}
-
-
 div.flex-v {
     display: flex;
     flex-direction: column;
@@ -74,4 +64,25 @@ div.flex-v {
 
 div.flex-h {
     display: flex;
+}
+
+div.context-menu {
+    flex-wrap: wrap;
+}
+
+div.context-menu>div {
+    margin-bottom: 1em;
+}
+
+div.text-background {
+    color: white;
+    background-color: #ccc;
+}
+
+div.sketch-picker {
+    z-index: 101;
+}
+
+div.Select-menu-outer {
+    z-index: 101;
 }
